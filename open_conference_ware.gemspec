@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     s.cert_chain = ["gem-public_cert.pem"]
   end
 
-  s.add_dependency "rails", "~> 4.0.2"
+  s.add_dependency "rails", ">= 4.0.2"
   s.add_dependency "rails-observers", "~> 0.1.2"
 
   # Authentication
